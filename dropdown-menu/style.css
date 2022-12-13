@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 47, 47);
+    position: relative;
+    height: 90vh;
+}
+
+.main-container{
+    /* Body ile ilişkilendirme ve boyutlandırma. */
+    position: absolute;
+    width: 50%;
+    height: 40%;
+
+    /* Body'e ortalama. */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* İçerisindeki elementleri ortalama. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-container{
+    /* Boyutlandırma */
+    width: 25%;
+    height: 100%;
+
+    /* Poziyon verme. */
+    position: relative;
+}
+
+.selected{
+    /* Border işlemleri. */
+    background-color: rgb(48, 47, 47);
+    box-shadow: rgb(55, 79, 111) 0px 3px 8px;
+    border-radius: 10px;
+    
+    /* Boyutlandırma */
+    width: 100%;
+    height: 15%;
+
+    /* Text ayarları */
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.list{
+    /* Border işlemleri. */
+    background-color: rgb(48, 47, 47);
+    box-shadow: rgb(55, 79, 111) 0px 0px 1px 1px;
+    border-radius: 10px;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 84%;
+
+    /* Gereksiz boşlukları kaldırma. */
+    margin-top: 1%;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* Liste işlemleri */
+    list-style-type: none;
+
+    /* Görünürlük ayarı. */
+    display: none;
+}
+
+.slider{
+    /* Border işlemleri. */
+    background-color: rgba(0, 0, 0,0.25);
+    border-radius: 10px;
+
+    /* Boyutlandırma. */
+    width: 90%;
+    height: 14%;
+
+    /* Dropdown-container'a göre pozisyon alma */
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    
+    z-index: 1;
+}
+
+.list-item{
+    /* Border işlemleri. */
+    border-radius: 10px;
+
+    /* Boyutlandırma. */
+    width: 100%;
+    height: 16.6%;
+
+}
+
+a{
+    /* Border işlemleri. */
+    border-radius: 10px;
+    
+    /* Boyutlandırma ve ortalama. */
+    display: block;
+    width: 90%;
+    line-height: 45px;
+
+    /* Text ayarları. */
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+
+    position: absolute;
+    z-index: 2;
+}
+
+.img{
+    /* Pozisyon verme */
+    position: relative;
+    top: 10px;
+    float: right;
+}
