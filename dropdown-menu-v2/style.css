@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    position: relative;
+}
+
+.main-container{
+    /* Border */
+    border: 1px solid black;
+
+    /* Body ile ilişkilendirme ve ortalama */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Boyutlandırma */
+    width: 15%;
+    height: 40%;
+}
+
+.selected-container{
+    /* Border */
+    border: 1px solid red;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 20%;
+
+    /* İçindeki div'leri yerleştirme */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* Sağdan - soldan boşluk ayarlama */
+    padding-left: 5%;
+    padding-right: 5%;
+
+    /* Renk ayarları */
+    background-color: rgba(36, 35, 35, 0.91);
+    color: rgba(255, 255, 255, 0.8);
+
+    /* Üzerine gelince tıklanma çıkması */
+    cursor: pointer;
+}
+
+.icon{
+    /* Border */
+    border: 1px solid blue;
+
+    /* Boyutlandırma */
+    width: 15%;
+    height: 50%;
+
+    /* İçindeki icon'u ortalama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    /* Border */
+    border: 1px solid blue;
+
+    /* Boyutlandırma */
+    width: 60%;
+    height: 50%;
+    
+    /* İçindeki text'i ortalama */
+    display: flex;
+    align-items: center;
+
+    /* Text özellikleri */
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.arrow-down{
+    /* Border */
+    border: 1px solid blue;
+
+    /* Boyutlandırma */
+    width: 15%;
+    height: 50%;
+
+    /* İçindeki icon'u ortalama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-container{
+    /* Border */
+    border: 1px solid green;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 80%;
+
+    /* Slider'ın dolaşması ve itemlerin sıralanması */
+    position: relative;
+
+    /* Görünürlüğünü kapatma */
+    display: none;
+}
+
+.slider{
+    border: 1px solid blue;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 20%;
+
+    /* Container'a göre ilişkilendirme, dolaşması ve pozisyon */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.items{
+    border: 1px solid red;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;
+
+    /* Container'a göre ilişkilendirme */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item{
+    border: 1px solid violet;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 20%;
+
+    /* Yazıyı ortalama */
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+    /* Text özellikleri */
+    font-size: 17px;
+    font-weight: 400;
+
+    /* Tıklanma */
+    cursor: pointer;
+}
