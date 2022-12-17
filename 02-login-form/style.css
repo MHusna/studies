@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* Arkaplan düzenlemesi */ 
+    background-color: rgb(250, 101, 250); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(250, 101, 250) , rgb(93, 209, 238));
+
+    height: 90vh;
+    position: relative;
+}
+
+.container{
+    /* Kenarlık ayarları ve renklendirme*/
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: white;
+
+    /* Body ile ilişkilendirme ve ortalama.*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Boyutlandırma */
+    width: 20%;
+    height: 50%;
+}
+
+.top{
+    margin-top: 10%;
+}
+
+.first-content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second-content{
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.middle{
+    margin-top: 5%;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 50%;
+}
+
+input{
+    /* Kenarlık ayarları */
+    border: 1px solid green;
+    border-radius: 5px;
+
+    /* Boyutlandırma */
+    width: 70%;
+    line-height: 4vh;
+
+    /* Ortalama */
+    margin-top: 7%;
+    margin-left: 14%;
+    margin-right: 14%;
+
+    /* Yazı ayarları */
+    color:gray;
+
+}
+
+.button{
+    /* Kenarlık ayarları */
+    border: 2px solid black;
+    border-radius: 5px;
+
+    /* Renklendirme */
+    background-color: rgb(250, 101, 250); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(250, 101, 250) , rgb(93, 209, 238));
+
+    /* Boyutlandırma */
+    width: 70%;
+    line-height: 4vh;
+
+
+    /* Ortalama */
+    margin-top: 7%;
+    margin-left: 14%;
+    margin-right: 14%;
+    color:white;
+}
+
+.bottom{
+    margin-left: 27%;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
