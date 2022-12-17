@@ -1,0 +1,92 @@
+body {
+    height: 90vh;
+    background-color: aqua;
+
+    position: relative;
+}
+
+.main-container {
+    /* Body ile ilişkilendirme */
+    position: absolute;
+    
+    /* Boyutlandırma */
+    width: 800px;
+    height: 200px;
+    
+    /* İçerik ortalama */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {    
+    /* Boyutlandırma */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+    position: relative;
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.back {
+
+    /* Container ile ilişkilendirme. */
+    position: absolute;
+    background-color: white;
+
+    /* Boyutlandırma */
+    width: 200px;
+    height: 200px;
+
+    z-index: 2;
+    transition: 1.5s;
+}
+
+.front {
+    
+    /* Container ile ilişkilendirme. */
+    position: absolute;
+    background-color: aqua;
+
+    /* Boyutlandırma */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+    z-index: 3;
+    transition: 1.5s;
+}
+
+img {
+    /* Container ile ilişkilendirme. */
+    position: absolute;
+}
+
+.text-settings {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    margin-left: 6px;
+}
+
+button {
+    margin-left: 60px;
+    background-color: white;
+}
+
+.container:hover .back {
+    transform: translateY(100px);
+}
+
+.container:hover .front {
+    transform: translateY(-100px);
+}
