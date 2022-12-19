@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe Card</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="buttons-container">
+
+            <div class="button" onclick="changeCard('leagueButton');"
+                                onmouseenter="mouseOn(0);"
+                                onmouseleave="mouseOut(0);">
+                League of Legends
+            </div>
+
+            <div class="button" onclick="changeCard('dotaButton');"
+                                onmouseenter="mouseOn(1);"
+                                onmouseleave="mouseOut(1);">
+                Dota
+            </div>
+
+        </div>
+
+        <div class="cards-container">
+
+            <div class="dota-container">
+
+                <div class="dota-header">
+
+                    <div class="dota-right-animated-image"></div>
+
+                </div>
+
+                <div class="info">
+
+                    <div class="info-circle">
+                        <div class="info-text">
+                            Dota
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="day-hour">
+                    <div class="day-hour-sub-content">
+                        
+                        <div class="day">
+                            <div class="day-number-content">7</div>
+                            <div class="day-text-content">days</div>
+                        </div>
+
+                        <div class="slash">/</div>
+
+                        <div class="hour">
+                            <div class="day-number-content">24</div>
+                            <div class="day-text-content">hours</div>
+                        </div>
+
+                    </div>
+                </div>
+            
+                <div class="join">KATIL</div>
+            </div>
+
+
+            <div class="league-container">
+
+                <div class="league-header">
+
+                    <div class="league-left-animated-img"></div>
+                    <div class="league-right-animated-img"></div>
+
+                </div>
+
+                <div class="info">
+
+                    <div class="info-circle">
+                        <div class="info-text">
+                            League of Legends
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="day-hour">
+                    <div class="day-hour-sub-content">
+                        
+                        <div class="day">
+                            <div class="day-number-content">7</div>
+                            <div class="day-text-content">days</div>
+                        </div>
+
+                        <div class="slash">/</div>
+
+                        <div class="hour">
+                            <div class="day-number-content">24</div>
+                            <div class="day-text-content">hours</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="join" onmouseenter="">KATIL</div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

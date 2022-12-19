@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    position: relative;
+
+}
+
+.main-container{
+    border-radius: 10px;
+
+    /* Boyutlandırma */
+    width: 30%;
+    height: 80%;
+
+    /* Pozisyonlama */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons-container{
+    /* Boyutlandırma */
+    width: 100%;
+    height: 10%;
+
+    /* Pozisyonlama */
+    position: relative;
+    top: 5%;
+
+    /* İçerik pozisyonlama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-image: linear-gradient(to right, #141e30 , #243b55);
+    border: 1px solid gold;
+    border-radius: 15px;
+    
+
+    /* Boyutlandırma */
+    width: 25%;
+    line-height: 5vh;
+
+    /* Yazı ayarları */
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+    /* Tıklanabilme Özelliği */
+    cursor: pointer;
+}
+
+.cards-container{
+    background-image: linear-gradient(to right, #141e30 , #243b55);
+     
+    /* Boyutlandırma */
+    width: 70%;
+    height: 70%;
+
+    /* Pozisyonlama */
+    position: relative;
+    top: 10%;
+    margin: auto;
+}
+
+.dota-container{
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;    
+    
+    /* Pozisyonlama */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Dönüş */
+    transform: rotateY(-180deg);
+    transition: 1s;
+
+    z-index: -1;
+    opacity: 0;
+}
+
+.dota-header{
+    background-image: url("../media/dota/dota-background.png");
+    background-size: 100% 100%;
+    opacity: 1;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 25%;
+}
+
+.dota-right-animated-image{
+    background-image: url("../media/dota/dota-character.png");
+    background-size: 100% 100%;
+
+    /* Boyutlandırma */
+    width: 50%;
+    height: 200%;
+    scale: 0.5;
+    transition: 1s;
+
+    /* Pozisyonlama */
+    position: relative;
+    top: -60%;
+    left: 100%;
+}
+
+.league-container{
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;
+
+    /* Pozisyonlama */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Dönüş */
+    transform: rotateY(0deg);
+    transition: 1s;
+
+    z-index: 2;
+    opacity: 1;
+}
+
+.league-header{
+    background-image: url("../media/league/lol-background.png");
+    background-size: 100% 100%;
+    opacity: 1;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 25%;
+}
+
+.league-left-animated-img{
+    background-image: url("../media/league/olaf.png");
+    background-size: 100% 100%;
+
+    /* Boyutlandırma */
+    width: 30%;
+    height: 100%;
+    scale: 1;
+    transition: 1s;
+
+    /* Pozisyonlama */
+    position: relative;
+    top: -30%;
+    left: -15%;
+}
+
+.league-right-animated-img{
+    background-image: url("../media/league/yasuo.png");
+    background-size: 100% 100%;
+
+    /* Boyutlandırma */
+    width: 30%;
+    height: 100%;
+    scale: 1;
+    transition: 1s;
+
+    /* Pozisyonlama */
+    position: relative;
+    top: -130%;
+    left: 80%;
+}
+
+.info{
+    /* Boyutlandırma */
+    width: 100%;
+    height: 30%;
+
+    /* İçerik pozisyonlama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-circle{
+    background: linear-gradient(to right, red, purple);
+    border-radius: 50%;
+
+    /* Boyutlandırma */
+    width: 35%;
+    height: 100%;
+
+    /* İçerik pozisyonlama */
+    display: flex;
+    align-items: center;
+}
+
+.info-text{
+    /* Boyutlandırma */
+    width: 100%;
+    line-height: 5vh;
+
+    /* Yazı ayarları */
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.day-hour{
+    /* Boyutlandırma */
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-hour-sub-content{
+    /* Boyutlandırma */
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+
+    /* Boyutlandırma */
+    width: 15%;
+    height: 50%;
+}
+
+.day-number-content{
+    
+    /* Boyutlandırma */
+    width: 60%;
+    height: 50%;
+
+    /* Yazı ayarları */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+
+    margin: auto;
+}
+
+.day-text-content{
+
+    /* Boyutlandırma */
+    width: 50%;
+    height: 50%;
+
+    /* Yazı ayarları */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+
+    margin: auto;
+}
+
+.slash{
+
+    /* Boyutlandırma */
+    width: 5%;
+    height: 50%;
+
+    /* Yazı ayarları */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+
+.hour{
+
+    /* Boyutlandırma */
+    width: 15%;
+    height: 50%;
+}
+
+.join{
+    border: 1px solid gold;
+    border-radius: 15px;
+
+    /* Boyutlandırma */
+    width: 40%;
+    line-height: 5vh;
+
+    /* Pozisyonlama */
+    margin: auto;
+
+    /* Yazı ayarları */
+    color: white;
+    text-align: center;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+ 
+    cursor: pointer;
+}
