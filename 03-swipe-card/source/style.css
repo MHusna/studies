@@ -57,9 +57,7 @@ body{
     cursor: pointer;
 }
 
-.cards-container{
-    background-image: linear-gradient(to right, #141e30 , #243b55);
-     
+.cards-container{     
     /* Boyutlandırma */
     width: 70%;
     height: 70%;
@@ -71,6 +69,8 @@ body{
 }
 
 .dota-container{
+    background: linear-gradient(90deg, rgba(176,50,50,1) 0%, rgba(65,176,54,1) 52%, rgba(187,158,153,1) 100%);
+
     /* Boyutlandırma */
     width: 100%;
     height: 100%;    
@@ -115,6 +115,8 @@ body{
 }
 
 .league-container{
+    background: linear-gradient(90deg, rgba(203,0,0,1) 0%, rgba(176,33,5,1) 47%, rgba(255,82,14,1) 100%);
+
     /* Boyutlandırma */
     width: 100%;
     height: 100%;
