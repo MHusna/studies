@@ -9,11 +9,11 @@ var dotaImg = document.getElementsByClassName("dota-right-animated-image")[0];
 function changeCard(cardName){
     if(cardName === "leagueButton"){
         containerProcess(leagueContainer, 0, 2, 1);
-        imgProcess(leagueLeftImg, 1, -30, -15);
-        imgProcess(leagueRightImg, 1, -130, 80);
+        imgProcess(leagueLeftImg, 1, -50, -30);
+        imgProcess(leagueRightImg, 1, -215, 80);
 
         containerProcess(dotaContainer, -180, -1, 0);
-        imgProcess(dotaImg, 0.5, -60, 100);
+        imgProcess(dotaImg, 0.3, -60, 100);
 
     }
     else{
@@ -21,8 +21,8 @@ function changeCard(cardName){
         imgProcess(dotaImg, 1, 35, 60);
 
         containerProcess(leagueContainer, -180, -1, 0);
-        imgProcess(leagueLeftImg, 0.5, -30, -15);
-        imgProcess(leagueRightImg, 0.5, -130, 80);
+        imgProcess(leagueLeftImg, 0.3, -30, -15);
+        imgProcess(leagueRightImg, 0.3, -130, 80);
     }
 }
 
