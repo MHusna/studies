@@ -1,0 +1,132 @@
+body{
+    position: relative;
+    height: 90vh;
+}
+
+.container{
+    
+    /* Sayfaya ortalama */
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Boyutlandırma */
+    width: 40%;
+    height: 7%;
+
+}
+
+.sliding-tabs{
+
+    /* Arkaplan ve gölgelendirme */
+    background-color:white;
+    box-shadow:2px 3px 9px 1px #dedede;
+
+    /* Kenarlık ayarları */
+    border: 20px solid white;
+    border-radius: 50px;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;
+
+    /* Alt elemanlar için pozisyon referansı. */
+    position: relative;
+}
+
+.slider-bg{
+
+    /* Renklendirme ve kenarlık ayarları */
+    background-color: #06547E;
+    border-radius: 30px;
+
+    /* sliding-tabs ile ilişkilendirme. */
+    position: absolute;
+    left:0;
+
+    /* Boyutlandırma */
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    
+    /* Geçiş süresi */
+    transition: 1s;
+    
+}
+
+.menu-container{
+    
+    /* Kenarlık ayarları */
+    border-radius: 30px;
+
+    /* Yerleştirme */
+    position: absolute;
+    top:0;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;
+
+    /* İçerik ortalama */
+    display: flex;   
+    justify-content: space-between;
+}
+
+.menu{
+
+    /* Arkaplan ve kenarlık */
+    background-color: white;
+    border-radius: 30px;
+
+    /* Boyutlandırma */
+    width: 30%;
+    height: 100%;
+
+    /* İçerik ortalama */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle{
+
+    /* Renklendirme ve kenarlık*/
+    background-color: orange;
+	color:white;
+    border-radius: 50%;
+
+    /* Boyutlandırma */
+    display: inline-block;
+    width: 25px;
+    line-height: 25px;
+    
+    /* Konumlandırma */
+    text-align: center;
+    margin-left: 5px;
+
+    /* Yazı boyutu ayarlama */
+    font-size: 12px;
+
+}
+
+a{
+    /* Kenarlık ve gölgelendirme */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+
+    /* İçerik ortalama */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Boyutlandırma */
+    width: 100%;
+    height: 100%;
+
+    /* Yazı ayarları */
+    text-decoration: none;
+    color: black;
+}
