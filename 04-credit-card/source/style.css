@@ -20,7 +20,7 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 15px;
     background-color: rgb(24, 118, 76);
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     margin: auto;
     width: 25%;
     height: 30%;
@@ -86,7 +86,7 @@ body{
 
 .back-visa{
     position: absolute;
-    background-image: url(images/visa.png);
+    background-image: url(../images/visa.png);
     background-size: 100% 100%;
     border-radius: 15px;
     width: 30%;
@@ -108,7 +108,7 @@ body{
 
 .chip{
     position: absolute;
-    background-image: url(images/chip.png);
+    background-image: url(../images/chip.png);
     background-size: 100% 100%;
     width: 18%;
     height: 27%;
@@ -118,7 +118,7 @@ body{
 
 .front-visa{
     position: absolute;
-    background-image: url(images/visa.png);
+    background-image: url(../images/visa.png);
     background-size: 100% 100%;
     border-radius: 15px;
     width: 30%;
