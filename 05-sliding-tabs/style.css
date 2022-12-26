@@ -1,4 +1,5 @@
 body{
+    background-color: #06547E;
     position: relative;
     height: 90vh;
 }
@@ -21,11 +22,11 @@ body{
 .sliding-tabs{
 
     /* Arkaplan ve gölgelendirme */
-    background-color:white;
+    background-color:whitesmoke;
     box-shadow:2px 3px 9px 1px #dedede;
 
     /* Kenarlık ayarları */
-    border: 20px solid white;
+    border: 20px solid whitesmoke;
     border-radius: 50px;
 
     /* Boyutlandırma */
