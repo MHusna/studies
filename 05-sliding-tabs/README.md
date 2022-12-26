@@ -1,5 +1,5 @@
 # Sliding Tabs
-    Html, css ve javascript ile kayan arkaplan örneği.
+    Html, css ve javascript ile hareketli arkaplana sahip menü örneği.
         -Css ile menü başlıkları tasarlandı.
         -Javascript ile gizli arkplanın hareket etmesi sağlandı.
 
