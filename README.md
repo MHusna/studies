@@ -1,2 +1,2 @@
 # web-development
-Örnek çalışmalar.
+Html, css ve javascript kullanılarak geliştirilmiş ekran tasarımları.
